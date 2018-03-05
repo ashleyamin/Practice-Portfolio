@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import cover from './cover.JPG';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Ashley Amin</h1>
+        <header className="Header" style={{backgroundImage: `url(${cover})`}}>
+          <h1 className="Title">Ashley Amin</h1>
+          <p className="Intro">I'm a front end developer and design strategist grounded in business rigor.</p>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <body>
+          <div className="Grid-container">
+          </div>
+        </body>
+        <footer>
+          <p>hello</p>
+        </footer>
       </div>
     );
   }
