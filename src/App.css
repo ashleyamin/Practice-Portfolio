@@ -90,3 +90,7 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   margin: 0;
   color: white;
 }
+
+.Contact-links {
+  display: inline-block;
+}

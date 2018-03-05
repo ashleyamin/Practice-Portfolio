@@ -19,10 +19,10 @@ class App extends Component {
         <footer className="Footer">
           <div className="Footer">
             <ul>
-              <li><a href="mailto:ashley.starks@gmail.com">Email</a></li>
-              <li><a href="https://www.linkedin.com/in/ashleyamin/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://medium.com/@ashleyamin" target="_blank">Medium</a></li>
-              <li><a href="https://github.com/ashleyamin" target="_blank">Github</a></li>
+              <li className="Contact-links"><a href="mailto:ashley.starks@gmail.com">Email</a></li>
+              <li className="Contact-links"><a href="https://www.linkedin.com/in/ashleyamin/" target="_blank">LinkedIn</a></li>
+              <li className="Contact-links"><a href="https://medium.com/@ashleyamin" target="_blank">Medium</a></li>
+              <li className="Contact-links"><a href="https://github.com/ashleyamin" target="_blank">Github</a></li>
             </ul>
           </div>
         </footer>
