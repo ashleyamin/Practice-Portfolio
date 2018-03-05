@@ -1,20 +1,92 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Carrois Gothic SC', sans-serif; */
+
+
 .App {
   display: grid;
   height: 100%;
   grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 25% auto 25%;
+  grid-template-rows: 25% 50% 25%;
   margin: 0;
 }
 
 .Header {
   grid-column-start: 1;
-  grid-column-end: end;
+  grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: 2;
   background-color: rgba(74,99,127,1);
   width: 100%;
+  text-align: center !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Intro {
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Title {
+  color: white;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 115px;
+  font-stretch: expanded;
+  margin: 0;
+}
+
+.Tagline {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  width: 750px;
+  margin: 10px;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.Scroll-icon {
+  /* animation: bounce 0.5s infinite; */
+  color: white;
+}
+
+/* portfolio artifacts */
+
+.Body {
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgba(240,240,240,1);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.test {
+  font-size: 100px;
+}
+
+/* About and Contact */
+
+.Footer {
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: rgba(0,0,0,1);
+  width: 100%;
+  margin: 0;
+  color: white;
 }
