@@ -36,7 +36,7 @@ class Work extends Component {
         </div>
         <div className="Project-Three">
           <div className="Images-Three" style={{backgroundImage: `url(${readysetplan_main})`}}>
-            <a className="Project-link" href="http://thestoop.herokuapp.com/" target="_blank">
+            <a className="Project-link" href="http://readysetplan.herokuapp.com/readysetplan" target="_blank">
             <div className="Project-Three-Button">ready set plan</div>
             </a>
           </div>
