@@ -6,10 +6,9 @@ class About extends Component {
     return (
       <div className="About" style={{backgroundImage: `url(${soccer})`}}>
         <div>
-          <h1 className="About-me"> About Me </h1>
-          <p className="Story">I help organizations and individuals develop memorable, fun applications & define
-              seamless & meaningful experiences for mobile & the web.</p>
-          <p className="Story">When I’m not developing you will find me playing pick up soccer in New York City, spending time with family in Ohio, snowboarding in Tahoe or running a half marathon in Austin.</p>
+          <h1 className="About-me"> about me </h1>
+          <p className="Story"><span>I help organizations and individuals define and develop seamless and meaningful digital experiences.</span></p>
+          <p className="Story">When I’m not developing you will find me playing pick up soccer in new york city, snowboarding in tahoe or running a half marathon in austin.</p>
           <br />
         </div>
       </div>

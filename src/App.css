@@ -64,7 +64,7 @@ font-family: 'Carrois Gothic SC', sans-serif; */
 
 /* portfolio artifacts */
 
-.Body {
+.Work {
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 2;
@@ -75,8 +75,77 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   text-align: center;
 }
 
-.test {
+.Latest {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.Latest-title {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 60px;
+  color: rgba(34,98,178,1);
+  font-weight: bold;
+  margin: 20px;
+}
+
+.Latest-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+.Project-One {
   font-size: 100px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  margin: 0;
+}
+
+.Images-One {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 25px;
+}
+
+.Overview-One {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.Project-Two {
+  font-size: 100px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  margin: 0;
+}
+
+.Images-Two {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgba(200,240,240,1);
+}
+
+.Overview-Two {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgba(200,240,240,1);
+  text-align: center;
+  font-size: 25px;
 }
 
 /* About and Contact */
@@ -98,10 +167,10 @@ font-family: 'Carrois Gothic SC', sans-serif; */
 
 .Story {
   color: white;
-  text-decoration: underline;
   font-family: 'Karma', serif;
   font-size: 40px;
   margin: 40px;
+  background-color: rgba(34,98,178,.5);
 }
 
 .About-me {
