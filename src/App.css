@@ -82,7 +82,7 @@ font-family: 'Carrois Gothic SC', sans-serif; */
 
 .Latest-title {
   font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 60px;
+  font-size: 55px;
   color: rgba(34,98,178,1);
   font-weight: bold;
   margin: 20px;
@@ -90,17 +90,32 @@ font-family: 'Carrois Gothic SC', sans-serif; */
 
 .Latest-description {
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  margin: 0;
+  font-size: 20px;
+  margin-bottom: 40px;
 }
+
+/*The Stoop App */
 
 .Project-One {
   font-size: 100px;
   display: grid;
-  height: 100%;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 40% 60%;
   grid-template-rows: auto;
+  margin: 34px;
+  align-self: center;
+  align-items: center;
+  height: 300px;
+}
+
+.Project-link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(34,98,178,1);
+  /* opacity: .9; */
   margin: 0;
+  display: block;
 }
 
 .Images-One {
@@ -108,26 +123,62 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  font-size: 25px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  height: 100%;
 }
 
-.Overview-One {
+.Project-One-Button {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 100%;
+  background-position: 50% 50%;
+  background-color: rgba(34,98,178,1);
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  padding: 5px;
+  color: white;
+  margin: 10px;
+}
+
+.Overview-one {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
+/*The PuppyFinder App */
 
 .Project-Two {
   font-size: 100px;
   display: grid;
-  height: 100%;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 40% 60%;
   grid-template-rows: auto;
+  margin: 34px;
+  align-self: center;
+  align-items: center;
+  height: 300px;
+}
+
+.Project-link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(34,98,178,1);
   margin: 0;
+  display: block;
 }
 
 .Images-Two {
@@ -135,18 +186,104 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: rgba(200,240,240,1);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  height: 100%;
 }
 
-.Overview-Two {
+.Project-Two-Button {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 100%;
+  background-position: 50% 50%;
+  background-color: rgba(34,98,178,1);
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  padding: 5px;
+  color: white;
+  margin: 10px;
+}
+
+.Overview-two {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: rgba(200,240,240,1);
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
+
+/*Ready Set Plan App */
+
+.Project-Three {
+  font-size: 100px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  margin: 34px;
+  align-self: center;
+  align-items: center;
+  height: 300px;
+}
+
+.Project-link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(34,98,178,1);
+  margin: 0;
+  display: block;
+}
+
+.Images-Three {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  height: 100%;
+}
+
+.Project-Three-Button {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 100%;
+  background-position: 50% 50%;
+  background-color: rgba(34,98,178,1);
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  padding: 5px;
+  color: white;
+  margin: 10px;
+}
+
+.Overview-three {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  font-size: 20px;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
 
 /* About and Contact */
 
