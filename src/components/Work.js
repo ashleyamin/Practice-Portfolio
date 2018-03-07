@@ -34,7 +34,7 @@ class Work extends Component {
             framework on the backend, with postgres as the database.
             </div>
             <a className="Learn-more-button" href="https://puppyfinderapp.herokuapp.com/" target="_blank">see the project</a>
-            <a className="Github-button" href="https://github.com/ashleyamin/The-Stoop" target="_blank">see the code</a>
+            <a className="Github-button" href="https://github.com/ashleyamin/Puppy-Finder" target="_blank">see the code</a>
         </div>
         </div>
         <div className="Project-Three">
@@ -47,7 +47,7 @@ class Work extends Component {
               Built using HTML/EJS, Node and Express, SQL, pg-promise, and the Google Login API for registration/authorization
             </div>
             <a className="Learn-more-button" href="http://readysetplan.herokuapp.com/readysetplan" target="_blank">see the project</a>
-            <a className="Github-button" href="https://github.com/ashleyamin/The-Stoop" target="_blank">see the code</a>
+            <a className="Github-button" href="https://github.com/ashleyamin/ReadySetPlan" target="_blank">see the code</a>
         </div>
         </div>
       </div>
