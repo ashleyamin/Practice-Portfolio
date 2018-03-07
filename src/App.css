@@ -69,7 +69,7 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   grid-column-end: end;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-color: rgba(240,240,240,1);
+  background-color: rgba(255,255,255,1);
   width: 100%;
   margin: 0;
   text-align: center;
@@ -107,17 +107,6 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   height: 300px;
 }
 
-.Project-link {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 40px;
-  background-color: rgba(34,98,178,1);
-  /* opacity: .9; */
-  margin: 0;
-  display: block;
-}
-
 .Images-One {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -129,33 +118,62 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   height: 100%;
 }
 
-.Project-One-Button {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  height: 100%;
-  background-position: 50% 50%;
-  background-color: rgba(34,98,178,1);
-  text-align: center;
-  vertical-align: center;
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 25px;
-  padding: 5px;
-  color: white;
-  margin: 10px;
-}
-
 .Overview-one {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
+}
+
+.Description {
   font-size: 20px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
+}
+
+.Learn-more-button {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  color: rgba(34,98,178,1);
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(34,98,178,1);
+  margin-right: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Learn-more-button:hover {
+  color: white;
+  background-color: rgba(34,98,178,1);
+}
+
+.Github-button {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  color: rgba(34,98,178,1);
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(34,98,178,1);
+  margin-left: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Github-button:hover {
+  color: white;
+  background-color: rgba(34,98,178,1);
 }
 
 /*The PuppyFinder App */
@@ -171,16 +189,6 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   height: 300px;
 }
 
-.Project-link {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 40px;
-  background-color: rgba(34,98,178,1);
-  margin: 0;
-  display: block;
-}
-
 .Images-Two {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -192,33 +200,62 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   height: 100%;
 }
 
-.Project-Two-Button {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  height: 100%;
-  background-position: 50% 50%;
-  background-color: rgba(34,98,178,1);
-  text-align: center;
-  vertical-align: center;
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 25px;
-  padding: 5px;
-  color: white;
-  margin: 10px;
-}
-
 .Overview-two {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
+}
+
+.Description {
   font-size: 20px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
+}
+
+.Learn-more-button {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  color: rgba(34,98,178,1);
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(34,98,178,1);
+  margin-right: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Learn-more-button:hover {
+  color: white;
+  background-color: rgba(34,98,178,1);
+}
+
+.Github-button {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  color: rgba(34,98,178,1);
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(34,98,178,1);
+  margin-left: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Github-button:hover {
+  color: white;
+  background-color: rgba(34,98,178,1);
 }
 
 /*Ready Set Plan App */
@@ -234,16 +271,6 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   height: 300px;
 }
 
-.Project-link {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 40px;
-  background-color: rgba(34,98,178,1);
-  margin: 0;
-  display: block;
-}
-
 .Images-Three {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -255,33 +282,62 @@ font-family: 'Carrois Gothic SC', sans-serif; */
   height: 100%;
 }
 
-.Project-Three-Button {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  height: 100%;
-  background-position: 50% 50%;
-  background-color: rgba(34,98,178,1);
-  text-align: center;
-  vertical-align: center;
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 25px;
-  padding: 5px;
-  color: white;
-  margin: 10px;
-}
-
 .Overview-three {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
+}
+
+.Description {
   font-size: 20px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
+}
+
+.Learn-more-button {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  color: rgba(34,98,178,1);
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(34,98,178,1);
+  margin-right: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Learn-more-button:hover {
+  color: white;
+  background-color: rgba(34,98,178,1);
+}
+
+.Github-button {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  color: rgba(34,98,178,1);
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(34,98,178,1);
+  margin-left: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Github-button:hover {
+  color: white;
+  background-color: rgba(34,98,178,1);
 }
 
 
